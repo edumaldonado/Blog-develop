@@ -12,7 +12,7 @@ public class UserDto {
     String email;
 
     public UserDto(){}
-
+// comentario 1
     public UserDto(User user) {
         username = user.getUsername();
         password = user.getPassword();
